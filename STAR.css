@@ -1,0 +1,482 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    height: 7.2rem;
+    /* background-color: bisque; */
+    display: flex;
+}
+
+.logo{
+    width: 7.2rem;
+    height: 7.2rem;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* float: left; */
+}
+
+.logo svg{
+    width: 50%;
+}
+.nav-bar{
+    width: 55%;
+    height: 7.2rem;
+    display: flex;
+    align-items: center;
+    /* float: left; */
+    /* background-color: green; */
+}
+
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    /* background-color: brown; */
+}
+.nav-bar ul li{
+    list-style: none;
+    padding-left: 4%;
+    font-family: SoDoSans,sans-serif ;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    font-size: .9rem;
+    
+
+}
+.loc{
+    width: 30px;
+    /* background-color: yellow; */
+    height: 7.2rem;
+    display: flex;
+    /* float: left; */
+}
+.findstore{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    width: 10%;
+    padding-left: 20px;
+    height: 7.2rem;
+    font-family:SoDoSans,sans-serif;
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+
+.two-buttons{
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.two-buttons button{
+    margin-left: 20px;
+}
+.sign-in{
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 90px;
+    height: 2.5rem;
+    font-family: SoDoSans,sans-serif;
+
+}
+
+.join-now{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 90px;
+    height: 2.5rem;
+    font-family: SoDoSans,sans-serif;
+
+}
+
+.positioning{
+    position: relative;
+    
+}
+
+.main-div{
+    display: flex;
+    position: fixed;
+}
+
+.leftimage{
+    width: 100%;
+    height: auto;
+}
+
+.button1{
+    position: fixed;
+    bottom: 31px;
+    left: 90px;
+    background: transparent;
+    border-radius: 70px;
+    width: 300px;
+    height: 30px;
+    color: #fff;
+    border-color: #fff;
+    font-weight: 700;
+    font-family: SoDoSans,sans-serif;
+    border-width: 1px;
+    box-shadow: 1px 2px 40px black;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.265) ,red                       ); */
+    
+
+}
+.button2{
+    position: fixed;
+    bottom: 300px;
+    top: 477px;
+    left: 90px;
+    background-color: transparent;
+    border-radius: 70px;
+    width: 300px;
+    height: 30px;
+    color: #fff;
+    border-color: #fff;
+    font-weight: 700;
+    font-family: SoDoSans,sans-serif;
+    border-width: 1px ;
+    box-shadow: 1px 2px 40px black;
+}
+
+.maindiv2{
+    position: relative;
+    overflow: scroll;
+    height: 82vh;
+    /* background-color: orange; */
+}
+
+.rightimage{
+    width: 100%;
+}
+
+.maintext{
+    font-family: SoDoSans, sans-serif;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-top: 32px;
+    font-size: 25px;
+}
+.love{
+    padding-left: 50px;
+    padding-top: 25px;
+    color: grey;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.order{
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: rgb(42, 178, 42);
+    border-color: rgb(36, 183, 36);
+    border-width: .2px;
+}
+.summer{
+    position: absolute;
+    width: 300px;
+    top: 575px;
+    left: 50px
+}
+.delivers{
+    position: absolute;
+    top: 580px;
+    left: 444px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif
+}
+.sen1{
+    position: absolute;
+    left: 444px;
+    top: 650px;
+    color: grey;
+    font-family: Helvetica;
+    font-weight: 500;
+}
+.order2{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: rgb(42, 178, 42);
+    border-color: rgb(36, 183, 36);
+    top: 850px;
+    left: 444px;
+    border-width: .2px;
+}
+.oleato{
+    position: absolute;
+    width: 300px;
+    top: 920px;
+    left: 50px;
+}
+.introducingoleato{
+    position: absolute;
+    left: 444px;
+    top: 930px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sen2{
+    position: absolute;
+    left: 444px;
+    top: 980px;
+    font-weight: 500;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.find{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: rgb(42, 178, 42);
+    border-color: rgb(36, 183, 36);
+    left: 444px;
+    top: 1140px;
+    border-width: .2px;
+}
+.card{
+    height: 400px;
+    width: 700px;
+    background-color: white;
+    
+    border: .5px solid;
+    display: flex;
+    position: relative;
+}
+.card-1{
+    position: absolute;
+    left: 50px;
+    top: 215vh;
+}
+
+.about{
+    height: 200px ;
+}
+
+.stories{
+    height: 200px;
+    padding-left: 1px;
+
+}
+.aboutus{
+    position: absolute;
+    left: 40px;
+    top: 230px;
+    font-size: 20px;
+    font-family: sans-serif
+}
+.aboutsen{
+    color: grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 270px;
+    left: 30px 
+}
+.starbucksstories{
+    position: absolute;
+    LEFT: 400px;
+    top: 230px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.storiessen{
+    position: absolute;
+    left: 382px;
+    top: 268px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.findoutmore1{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: rgb(42, 178, 42);
+    border-color: rgb(36, 183, 36);
+    border-width: .2px;
+    top: 350px;
+    left: 30px;
+
+}
+.findoutmore2{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: rgb(42, 178, 42);
+    border-color: rgb(36, 183, 36);
+    border-width: .2px;
+    top: 350px;
+    left: 400px;
+}
+.about2{
+    position: absolute;
+    top: 290vh;
+    left: 15vh;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.career{
+    position: absolute;
+    top: 300vh;
+    left: 15vh;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.socialimpact{
+    position: absolute;
+    top: 310vh;
+    left: 15vh;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.scard{
+    position: absolute;
+    top: 320vh;
+    left: 15vh;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.svg1{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 290vh;
+    left: 110vh;
+
+}
+.svg2{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 300vh;
+    left: 110vh;
+}
+.svg3{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 310vh;
+    left: 110vh;
+}
+.svg4{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 320vh;
+    left: 110vh;
+}
+.fb{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 340vh;
+    left: 15vh;
+
+}
+.pintrest{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 340vh;
+    left: 25vh;
+
+}
+.insta{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 340vh;
+    left: 35vh;
+}
+.twit{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 340vh;
+    left: 45vh;
+
+}
+.contact{
+    position: absolute;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15vh;
+    top: 350vh;
+    font-weight: 600;
+
+}
+.privacy{
+    
+    position: absolute;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15vh;
+    top: 355vh;
+    font-weight: 600;
+
+}
+.terms{
+    
+    position: absolute;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15vh;
+    top: 360vh;
+    font-weight: 600;
+}
+.consent{
+    
+    position: absolute;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15vh;
+    top: 365vh;
+    font-weight: 600;
+}
+.notice{
+    
+    position: absolute;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15vh;
+    top: 370vh;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
